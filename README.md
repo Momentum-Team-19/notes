@@ -28,3 +28,7 @@
 - [Structure of Django Diagram](django-diagram.md)
 - [Django Models](django-models.md)
 - [O2M and M2M Diagram](django-relationships.md)
+
+### Phase 3: Advanced Front End with React
+
+- [JS for React]
