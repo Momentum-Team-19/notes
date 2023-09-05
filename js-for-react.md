@@ -233,7 +233,7 @@ console.log(state) // "MS"
 
 // What if you have more items in the array than variable names? No worries.
 // Just destructure however many you want and JS will just ignore the rest
-const pets = ['Nutmeg', 'Gizmo', 'Roxie Jane', 'Belletrix']
+const pets = ['Nutmeg', 'Gizmo', 'Otis', 'Belletrix']
 const [alphaDog] = pets // this returns just the first one
 console.log(alphaDog) // "Nutmeg"
 ```
@@ -252,7 +252,7 @@ When we use the three dots `...` this way, we call it the rest operator.
 
 ```js
 // Let's continue using our example from above.
-const pets = const pets = ['Nutmeg', 'Gizmo', 'Roxie Jane', 'Belletrix']
+const pets = const pets = ['Nutmeg', 'Gizmo', 'Otis', 'Belletrix']
 // what if you want the first one AND the rest of the dogs?
 const [alphaDog, pack] = pets // Nope! That won't work
 console.log(alphaDog) // "Nutmeg"
@@ -260,7 +260,7 @@ console.log(pack) // "Gizmo"
 // if we want ALL the rest of the dogs we can use the "rest operator"
 const [alphaDog, ...pack] = pets
 console.log(alphaDog) // "Nutmeg"
-console.log(pack) // ["Gizmo", "Roxie Jane", "Belletrix"]
+console.log(pack) // ["Gizmo", "Otis", "Belletrix"]
 ```
 
 ### Spread Syntax
